@@ -1,13 +1,13 @@
 require 'thread'
 require 'time'
-require 'segment/analytics/utils'
-require 'segment/analytics/worker'
-require 'segment/analytics/defaults'
+require 'stupidsegment/analytics/utils'
+require 'stupidsegment/analytics/worker'
+require 'stupidsegment/analytics/defaults'
 
-module Segment
+module Stupidsegment
   class Analytics
     class Client
-      include Segment::Analytics::Utils
+      include Stupidsegment::Analytics::Utils
 
       # public: Creates a new client
       #
@@ -328,7 +328,7 @@ module Segment
       #
       # context - Hash of call context
       def add_context(context)
-        context[:library] =  { :name => "analytics-ruby", :version => Segment::Analytics::VERSION.to_s }
+        context[:library] =  { :name => "analytics-ruby", :version => Stupidsegment::Analytics::VERSION.to_s }
       end
 
       # private: Checks that the write_key is properly initialized

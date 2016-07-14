@@ -1,13 +1,13 @@
-require 'segment/analytics/defaults'
-require 'segment/analytics/utils'
-require 'segment/analytics/defaults'
-require 'segment/analytics/request'
+require 'stupidsegment/analytics/defaults'
+require 'stupidsegment/analytics/utils'
+require 'stupidsegment/analytics/defaults'
+require 'stupidsegment/analytics/request'
 
-module Segment
+module Stupidsegment
   class Analytics
     class Worker
-      include Segment::Analytics::Utils
-      include Segment::Analytics::Defaults
+      include Stupidsegment::Analytics::Utils
+      include Stupidsegment::Analytics::Defaults
 
       # public: Creates a new worker
       #

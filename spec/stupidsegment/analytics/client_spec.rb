@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-module Segment
+module Stupidsegment
   class Analytics
     describe Client do
       let(:client) { Client.new :write_key => WRITE_KEY }

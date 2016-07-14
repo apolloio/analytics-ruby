@@ -1,4 +1,4 @@
-module Segment
+module Stupidsegment
   class Analytics
     module Defaults
       module Request

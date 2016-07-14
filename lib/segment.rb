@@ -1,1 +1,1 @@
-require 'segment/analytics'
+require 'stupidsegment/analytics'

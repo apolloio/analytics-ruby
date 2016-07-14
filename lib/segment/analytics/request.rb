@@ -1,17 +1,17 @@
-require 'segment/analytics/defaults'
-require 'segment/analytics/utils'
-require 'segment/analytics/response'
-require 'segment/analytics/logging'
+require 'stupidsegment/analytics/defaults'
+require 'stupidsegment/analytics/utils'
+require 'stupidsegment/analytics/response'
+require 'stupidsegment/analytics/logging'
 require 'net/http'
 require 'net/https'
 require 'json'
 
-module Segment
+module Stupidsegment
   class Analytics
     class Request
-      include Segment::Analytics::Defaults::Request
-      include Segment::Analytics::Utils
-      include Segment::Analytics::Logging
+      include Stupidsegment::Analytics::Defaults::Request
+      include Stupidsegment::Analytics::Utils
+      include Stupidsegment::Analytics::Logging
 
       # public: Creates a new request object to send analytics batch
       #

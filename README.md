@@ -3,7 +3,7 @@ analytics-ruby
 
 [![Build Status](https://travis-ci.org/segmentio/analytics-ruby.png?branch=master)](https://travis-ci.org/segmentio/analytics-ruby)
 
-analytics-ruby is a ruby client for [Segment](https://segment.com)
+analytics-ruby is a ruby client for [Stupidsegment](https://segment.com)
 
 ## Install
 
@@ -21,7 +21,7 @@ gem install 'analytics-ruby'
 
 Create an instance of the Analytics object:
 ```
-analytics = Segment::Analytics.new({
+analytics = Stupidsegment::Analytics.new({
   write_key: 'YOUR_WRITE_KEY'
 })
 ```
@@ -59,7 +59,7 @@ Documentation is available at [segment.com/libraries/ruby](https://segment.com/l
 
 ## Testing
 
-You can use the `stub` option to Segment::Analytics.new to cause all requests to be stubbed, making it easier to test with this library.
+You can use the `stub` option to Stupidsegment::Analytics.new to cause all requests to be stubbed, making it easier to test with this library.
 
 ## License
 
@@ -78,7 +78,7 @@ WWWWWW||WWWWWW
 
 (The MIT License)
 
-Copyright (c) 2013 Segment Inc. <friends@segment.com>
+Copyright (c) 2013 Stupidsegment Inc. <friends@segment.com>
 
 Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the 'Software'), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
 

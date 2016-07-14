@@ -1,4 +1,4 @@
-module Segment
+module Stupidsegment
   class Analytics
     class Response
       attr_reader :status, :error
